@@ -181,7 +181,7 @@ img{
 
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
-@media (min-width: 650px) and (max-width: 1379px) {
+@media (min-width: 620px) and (max-width: 1379px) {
 
  header, footer{
         background-color: var(--black);
@@ -215,8 +215,8 @@ img{
 
 
 /* ---------- LARGE SCREEN STYLES ---------- */
-/* --------------- BEGIN LARGE SCREEN SIZES --------------- */
-    /* header, footer{
+@media (min-width: 1380px) {
+ header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
     }
@@ -247,7 +247,8 @@ img{
 
     #seven, #eight{
         grid-row: 3/4;
-    } */
+    }
+}
 /* --------------- END LARGE SCREEN SIZES --------------- */
 
 
